@@ -1,0 +1,138 @@
+body {
+    background-color: red;
+    font-family: 'Raleway', sans-serif;
+  }
+  nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+  }
+  nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+  }
+  #brand {
+    float: left;
+  }
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+  }
+  .nav-link:hover {
+    color: lightblue;
+    font-weight: bold;
+  }
+  #brand .nav-link {
+    color: white;
+    font-size: 14pt;
+  }
+  #brand .nav-link:hover {
+    color: lightblue;
+  }
+  h1{
+    font-size: 60pt;
+  }
+  #home{
+    margin-top: 50px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 30vh;
+    padding-top: 3em;
+    background: url("./assets/stage.jpg") center 75% no-repeat fixed;
+    background-size: cover;
+  }
+  .header-tag{
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px purple;
+  }
+  h3.header-tag{
+    margin-top: -30px;
+    font-size: 18pt;
+  }
+  h2{
+    font-family: 'Acme', sans-serif;
+    color: black;
+    text-shadow: 2px 2px 2px purple;
+  }
+  .main{
+    text-align: center;
+  }
+  #about{
+    margin-top: 50px;
+    display: inline-block;
+  }
+    #about-content {
+    width: 40vw;
+    float: right;
+  }
+  #contact-form{
+    margin: auto;
+    margin-top: 100px;
+    width: 30vw;
+    background-color: grey;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    border-radius: .4em;
+  }
+  #contact-form input {
+    width: 90%;
+    margin-bottom: 20px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+  }
+  #contact-form h2 {
+    color: white;
+    font-size: 28pt;
+    text-shadow: 2px 2px 2px black;
+  }
+  textarea {
+    resize: none;
+    height: 200px;
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  div#profile-picture{
+    float: left;
+    box-shadow: 10px 10px 10px;
+    height: 360px;
+  }
+  h4{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20pt;
+  }
+  div#about-picture{
+    width: 500px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    border: 3px;
+    left: 0;
+    padding-top: 5px;
+    }
+
+    h5{
+      position: absolute;
+      left: 3%;
+      bottom: 3%;
+      background-color: black;
+      color: white;
+      font-size: 16pt;
+    }
